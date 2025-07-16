@@ -10,13 +10,15 @@ public class Homework1 {
         }
         Scanner t = new Scanner(System.in);
         Random r = new Random();
-        int randomNumber = r.nextInt(100);
+        // int maximum = 100;
+        // int minimum = 1;
+        int randomNumber = r.nextInt(100)+1;
         int guessedNumber = t.nextInt();
         if(guessedNumber < randomNumber){
-            System.out.println("Higher");
+            System.out.println("Too low");
         }
         if(guessedNumber > randomNumber){
-            System.out.println("Lower");
+            System.out.println("Too high");
         }
         if(guessedNumber == randomNumber){
             System.out.println("Correct");
@@ -25,10 +27,10 @@ public class Homework1 {
         Scanner u = new Scanner(System.in);
         int otherGuessedNumber = u.nextInt();
         if(otherGuessedNumber < randomNumber){
-            System.out.println("Higher");
+            System.out.println("Too low");
         }
         if(otherGuessedNumber > randomNumber){
-            System.out.println("Lower");
+            System.out.println("Too high");
         }
          if(otherGuessedNumber == randomNumber){
             System.out.println("Correct");
