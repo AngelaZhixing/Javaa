@@ -9,3 +9,5 @@ From start to Java Operators.
 ## 2025-7-17
 
 Submitted Assignments #1 and #2.
+
+Finished Java Tutorial and read Java Errors and Java File Handling.
