@@ -13,11 +13,8 @@ public class Homework1 {
         }
     }
 
-    public static void main(String[] args) {
-
-        MultiplicationTable();
-
-        Scanner t = new Scanner(System.in);
+    static void GuesstheNumber(){
+         Scanner t = new Scanner(System.in);
         Random r = new Random();
         // int maximum = 100;
         // int minimum = 1;
@@ -33,18 +30,24 @@ public class Homework1 {
             System.out.println("Correct");
         }
         while(randomNumber != guessedNumber){
-        Scanner u = new Scanner(System.in);
-        int otherGuessedNumber = u.nextInt();
-        if(otherGuessedNumber < randomNumber){
-            System.out.println("Too low");
-        }
-        if(otherGuessedNumber > randomNumber){
-            System.out.println("Too high");
-        }
-         if(otherGuessedNumber == randomNumber){
-            System.out.println("Correct");
+            Scanner u = new Scanner(System.in);
+            int otherGuessedNumber = u.nextInt();
+            if(otherGuessedNumber < randomNumber){
+                System.out.println("Too low");
+            }
+            if(otherGuessedNumber > randomNumber){
+                System.out.println("Too high");
+            }
+            if(otherGuessedNumber == randomNumber){
+                System.out.println("Correct");
+            }
         }
     }
+    public static void main(String[] args) {
+
+        MultiplicationTable();
+
+        GuesstheNumber();
+
     }
-                 //Scanner.close();
 }
