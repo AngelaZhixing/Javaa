@@ -23,25 +23,26 @@ public class Homework1 {
         if(guessedNumber < randomNumber){
             System.out.println("Too low");
         }
-        if(guessedNumber > randomNumber){
+        else if(guessedNumber > randomNumber){
             System.out.println("Too high");
         }
-        if(guessedNumber == randomNumber){
+        else{
             System.out.println("Correct");
         }
-        while(randomNumber != guessedNumber){
+        do {
             Scanner u = new Scanner(System.in);
             int otherGuessedNumber = u.nextInt();
             if(otherGuessedNumber < randomNumber){
                 System.out.println("Too low");
             }
-            if(otherGuessedNumber > randomNumber){
+            else if(otherGuessedNumber > randomNumber){
                 System.out.println("Too high");
             }
-            if(otherGuessedNumber == randomNumber){
+            else{
                 System.out.println("Correct");
             }
         }
+        while(randomNumber != guessedNumber);
     }
     public static void main(String[] args) {
 
