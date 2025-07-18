@@ -51,4 +51,4 @@ public class Homework1 {
         GuesstheNumber();
 
     }
-}
+} 
