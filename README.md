@@ -14,4 +14,6 @@ Finished Java Tutorial and read Java Errors and Java File Handling.
 
 ## 2025-7-18
 
+Read Java Methods
 
+Submitted Assignment #3
