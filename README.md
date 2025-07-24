@@ -17,3 +17,11 @@ Finished Java Tutorial and read Java Errors and Java File Handling.
 Read Java Methods
 
 Submitted Assignment #3
+
+## 2025-7-22
+
+Submitted Assignment #4
+
+## 2025-7-23
+
+Submitted Assignment #5
