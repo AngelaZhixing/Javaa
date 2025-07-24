@@ -9,7 +9,6 @@ public class ArrayPractice {
             randomValues[count] = randomValue;
             System.out.println(randomValue);
         }
-        int length = randomValues.length;
         int greatestNumber = randomValues[0];
         for(int oneNumber : randomValues){
             if (greatestNumber < oneNumber){
