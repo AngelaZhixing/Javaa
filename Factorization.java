@@ -27,7 +27,7 @@ public class Factorization {
                     }
                 }
             }
-        }else{
+        }else{ 
             System.out.println ("Succesfully Exited");
         }
     }
